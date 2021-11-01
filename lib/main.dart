@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_resource/views/awesome_chart.dart';
 import 'package:flutter_resource/views/curved_navigation_bar.dart';
 
 void main() {
@@ -30,6 +31,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return CurvedNavigationBarViews();
+    return AwesomeChartViews(isShowingMainData: true);
   }
 }
