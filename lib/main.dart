@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_resource/views/awesome_chart.dart';
 import 'package:flutter_resource/views/curved_navigation_bar.dart';
+import 'package:flutter_resource/views/file_select_upload.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,6 +32,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return AwesomeChartViews(isShowingMainData: true);
+    return FileSelectUpload();
   }
 }
